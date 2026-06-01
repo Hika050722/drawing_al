@@ -1,0 +1,8 @@
+name: Scheduled Job
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  jobs:
+    automation:
+      runs-on: ubuntu-latest
+      steps:
