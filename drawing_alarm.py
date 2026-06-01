@@ -12,7 +12,7 @@ def generate_motif_idea():
     genai.configure(api_key=GEMINI_API_KEY)
     
     # 動作が速く安価なモデルを指定
-    model = genai.GenerativeModel('gemini-3.1-flash')
+    model = genai.GenerativeModel('gemini-3-flash-preview')
     
     # AIへの指示（プロンプト）
     prompt = """
