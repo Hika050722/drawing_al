@@ -3,7 +3,7 @@ name: Daily Dessin Notify
 on:
   schedule:
     # 毎日 UTCの午前3時（＝日本時間の昼12時）に実行する設定です
-    - cron: '0 3 * * *'
+    - cron: '37 3 * * *'
   workflow_dispatch:
 
 jobs:
